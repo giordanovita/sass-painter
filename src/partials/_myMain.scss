@@ -5,110 +5,122 @@
     background-position: center;
     background-size: cover;
     filter: contrast(160%);
+
+    .jumbo-container{
+        width: 36%;
+        height: 80%;
+        margin-left: 10%;
+        padding-top: 20px;
+        display:flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+
+        img{
+            width: 300px;
+            padding-bottom: 20px;
+        }
+
+        p{
+            padding-bottom: 40px;
+        
+        }
+
+        .purpleChar, .purpleChar a{
+            color: rgb(212, 44, 212);
+            display: block;
+            line-height: 25px;
+            font-size: 14px;
+        }
+        
+    }
+
+    .jButton{
+        font-size: 16px;
+        padding: 7px 17px;
+        border:2px solid black;
+        margin-top: 30px;
+        color: black;
+    }
+    
+    .jButton.lm{
+        color:white;
+        background-color: #080808;
+        margin:0 15px 0 10%;
+    }
 }
 
-.jumbo-container{
-    width: 36%;
-    height: 80%;
-    margin-left: 10%;
-    padding-top: 20px;
-    display:flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.jumbo-container img{
-    width: 300px;
-    padding-bottom: 20px;
-}
 
-.jumbo-container p{
-    padding-bottom: 40px;
 
-}
 
-.purpleChar, .purpleChar a{
-    color: rgb(212, 44, 212);
-    display: block;
-    line-height: 25px;
-    font-size: 14px;
-}
 
-.jButton{
-    font-size: 16px;
-    padding: 7px 17px;
-    border:2px solid black;
-    margin-top: 30px;
-    color: black;
-}
 
-.jButton.lm{
-    color:white;
-    background-color: #080808;
-    margin:0 15px 0 10%;
-}
 
 .main-rest{
     width: 100%;
     height: auto;
     background: #E6E6E6;
-}
 
-.mini-cards{
-    width: 80%;
-    height: 500px;
-    margin: auto;
-    padding-top:30px
-}
+    .mini-cards{
+        width: 80%;
+        height: 500px;
+        margin: auto;
+        padding-top:30px;
 
-.cards-container{
-    display: flex;
-}
+        .cards-container{
+            display: flex;
+        }
 
-.mini-cards>.subtitle{
-    font-size: 24px;
-    text-align: center;
-    padding-bottom: 30px;
-}
+        .subtitle{
+            font-size: 24px;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        
+        .minibox{
+            width: calc(100% / 3 - 15px);
+            height: 300px;
+            display: inline-block;
+            background-color: white;
 
-.minibox{
-    width: calc(100% / 3 - 15px);
-    height: 300px;
-    display: inline-block;
-    background-color: white;
+            img{
+                width: 100%;
+                height: 150px;
+            }
+
+            .card-text{
+                margin: 15px 20px;
+                & p{
+                    margin: 20px 0;
+                    font-size: 15px;
+                }
+            
+                & a{
+                    color:rgb(33, 182, 231)
+                }
+                
+            }
+            
+            .card-title{
+                font-size: 16x;
+                font-weight: 600;
+                & em{
+                    color:rgb(33, 182, 231)
+                }
+            }
+            
+            
+        }
+        
+        .mid {
+            margin:0 17.5px
+        }
+    }
     
 }
 
-.mid {
-    margin:0 17.5px
-}
 
-.minibox img{
-    width: 100%;
-    height: 150px;
-}
-
-.card-text{
-    margin: 15px 20px;
-    & p{
-        margin: 20px 0;
-        font-size: 15px;
-    }
-
-    & a{
-        color:rgb(33, 182, 231)
-    }
-    
-}
-
-.card-title{
-    font-size: 16x;
-    font-weight: 600;
-    & em{
-        color:rgb(33, 182, 231)
-    }
-}
 
 .jumbo-cards{
     width: 80%;

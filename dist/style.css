@@ -6,8 +6,7 @@
   background-size: cover;
   filter: contrast(160%);
 }
-
-.jumbo-container {
+.jumbotron .jumbo-container {
   width: 36%;
   height: 80%;
   margin-left: 10%;
@@ -17,32 +16,27 @@
   flex-direction: column;
   justify-content: center;
 }
-
-.jumbo-container img {
+.jumbotron .jumbo-container img {
   width: 300px;
   padding-bottom: 20px;
 }
-
-.jumbo-container p {
+.jumbotron .jumbo-container p {
   padding-bottom: 40px;
 }
-
-.purpleChar, .purpleChar a {
+.jumbotron .jumbo-container .purpleChar, .jumbotron .jumbo-container .purpleChar a {
   color: #d42cd4;
   display: block;
   line-height: 25px;
   font-size: 14px;
 }
-
-.jButton {
+.jumbotron .jButton {
   font-size: 16px;
   padding: 7px 17px;
   border: 2px solid black;
   margin-top: 30px;
   color: black;
 }
-
-.jButton.lm {
+.jumbotron .jButton.lm {
   color: white;
   background-color: #080808;
   margin: 0 15px 0 10%;
@@ -53,57 +47,49 @@
   height: auto;
   background: #E6E6E6;
 }
-
-.mini-cards {
+.main-rest .mini-cards {
   width: 80%;
   height: 500px;
   margin: auto;
   padding-top: 30px;
 }
-
-.cards-container {
+.main-rest .mini-cards .cards-container {
   display: flex;
 }
-
-.mini-cards > .subtitle {
+.main-rest .mini-cards .subtitle {
   font-size: 24px;
   text-align: center;
   padding-bottom: 30px;
 }
-
-.minibox {
+.main-rest .mini-cards .minibox {
   width: calc(100% / 3 - 15px);
   height: 300px;
   display: inline-block;
   background-color: white;
 }
-
-.mid {
-  margin: 0 17.5px;
-}
-
-.minibox img {
+.main-rest .mini-cards .minibox img {
   width: 100%;
   height: 150px;
 }
-
-.card-text {
+.main-rest .mini-cards .minibox .card-text {
   margin: 15px 20px;
 }
-.card-text p {
+.main-rest .mini-cards .minibox .card-text p {
   margin: 20px 0;
   font-size: 15px;
 }
-.card-text a {
+.main-rest .mini-cards .minibox .card-text a {
   color: #21b6e7;
 }
-
-.card-title {
+.main-rest .mini-cards .minibox .card-title {
   font-size: 16x;
   font-weight: 600;
 }
-.card-title em {
+.main-rest .mini-cards .minibox .card-title em {
   color: #21b6e7;
+}
+.main-rest .mini-cards .mid {
+  margin: 0 17.5px;
 }
 
 .jumbo-cards {
@@ -171,9 +157,6 @@
   text-decoration: none;
   list-style: none;
 }
-* a:hover {
-  text-decoration: underline;
-}
 
 body {
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
@@ -186,44 +169,45 @@ header {
   color: white;
 }
 
+nav .upper-bar {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
+}
 nav .upper-bar ul li {
   display: inline-block;
   padding: 10px 20px 0 0;
 }
-
-.upper-bar li a {
+nav .upper-bar ul li a {
   color: #989898;
 }
-
-.upper-bar li i {
+nav .upper-bar ul li i {
   padding-right: 5px;
   color: #009cff;
 }
-
-.upper-bar select {
+nav .upper-bar select {
   width: 80px;
   height: 22px;
   margin-top: 10px;
 }
-
-header nav .main-bar {
+nav .main-bar {
   width: 80%;
   height: calc(100% - 40px);
   margin: auto;
   padding-top: 20px;
 }
-
-header nav .main-bar ul {
+nav .main-bar ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-
-.main-bar ul li {
+nav .main-bar ul li {
   margin-right: 20px;
 }
-
-.main-bar ul li a {
+nav .main-bar ul li a {
   font-weight: 500;
   color: white;
 }
