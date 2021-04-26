@@ -4,6 +4,10 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+        a:hover{
+            text-decoration: underline;
+        }
+
     list-style: none;
 }
 
@@ -16,16 +20,10 @@ header{
     height: 110px;
     background-color:#080808;
     color:white;
+    
 }
 
-nav .upper-bar{
-    width: 80%;
-    height: 40px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: auto;
-}
+
 
 nav .upper-bar ul li{
     display: inline-block;
